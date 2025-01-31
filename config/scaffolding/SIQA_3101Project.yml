@@ -20,6 +20,22 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2033
+- serviceName: project.siqa_3101.integrations:deepclonetest
+  packages:
+  - name: SIQA_3101Project
+    version: "1.0"
+- serviceName: pub.string:stringToBytes
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2033
+- serviceName: pub.utils:deepClone
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2033
+- serviceName: pub.string:bytesToString
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2033
 configurationVariables:
   jdbc.jdbcTestPool.waitingThread: "0"
   jdbc.jdbcTestPool.minConns: "0"
